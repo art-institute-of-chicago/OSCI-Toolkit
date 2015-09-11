@@ -20,7 +20,7 @@ function osci_tk_features_ctools_plugin_api() {
 function osci_tk_features_image_default_styles() {
   $styles = array();
 
-  // Exported image style: osci_tk_default.
+  // Exported image style: osci_tk_default
   $styles['osci_tk_default'] = array(
     'name' => 'osci_tk_default',
     'label' => 'osci_tk_default',
@@ -44,7 +44,7 @@ function osci_tk_features_image_default_styles() {
     ),
   );
 
-  // Exported image style: osci_tk_thumbnail_square.
+  // Exported image style: osci_tk_thumbnail_square
   $styles['osci_tk_thumbnail_square'] = array(
     'name' => 'osci_tk_thumbnail_square',
     'label' => 'osci_tk_thumbnail_square',
@@ -138,6 +138,14 @@ function osci_tk_features_node_info() {
       'description' => t('A Scalable Vector Graphic for use in a layered image'),
       'has_title' => '1',
       'title_label' => t('Title'),
+      'help' => '',
+    ),
+    'work_of_art' => array(
+      'name' => t('Work of Art'),
+      'base' => 'node_content',
+      'description' => '',
+      'has_title' => '1',
+      'title_label' => t('Administrative Title'),
       'help' => '',
     ),
   );

@@ -10,7 +10,7 @@
 function osci_tk_features_field_default_fields() {
   $fields = array();
 
-  // Exported field: 'node-html_asset-field_asset_thumbnail'.
+  // Exported field: 'node-html_asset-field_asset_thumbnail'
   $fields['node-html_asset-field_asset_thumbnail'] = array(
     'field_config' => array(
       'active' => '1',
@@ -31,7 +31,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'fid',
         ),
       ),
-      'locked' => '0',
       'module' => 'image',
       'settings' => array(
         'default_image' => 0,
@@ -92,7 +91,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-iip_asset-field_alt_tag'.
+  // Exported field: 'node-iip_asset-field_alt_tag'
   $fields['node-iip_asset-field_alt_tag'] = array(
     'field_config' => array(
       'active' => '1',
@@ -113,7 +112,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'format',
         ),
       ),
-      'locked' => '0',
       'module' => 'text',
       'settings' => array(
         'max_length' => '255',
@@ -171,7 +169,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-iip_asset-field_asset_thumbnail'.
+  // Exported field: 'node-iip_asset-field_asset_thumbnail'
   $fields['node-iip_asset-field_asset_thumbnail'] = array(
     'field_config' => array(
       'active' => '1',
@@ -192,7 +190,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'fid',
         ),
       ),
-      'locked' => '0',
       'module' => 'image',
       'settings' => array(
         'default_image' => 0,
@@ -253,7 +250,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-iip_asset-field_iip_server'.
+  // Exported field: 'node-iip_asset-field_iip_server'
   $fields['node-iip_asset-field_iip_server'] = array(
     'field_config' => array(
       'active' => '1',
@@ -267,7 +264,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'value',
         ),
       ),
-      'locked' => '0',
       'module' => 'list',
       'settings' => array(
         'allowed_values' => array(),
@@ -319,7 +315,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-iip_asset-field_image'.
+  // Exported field: 'node-iip_asset-field_image'
   $fields['node-iip_asset-field_image'] = array(
     'field_config' => array(
       'active' => '1',
@@ -340,7 +336,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'fid',
         ),
       ),
-      'locked' => '0',
       'module' => 'image',
       'settings' => array(
         'default_image' => 0,
@@ -405,7 +400,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-iip_asset-field_ptiff_attr'.
+  // Exported field: 'node-iip_asset-field_ptiff_attr'
   $fields['node-iip_asset-field_ptiff_attr'] = array(
     'field_config' => array(
       'active' => '1',
@@ -426,7 +421,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'format',
         ),
       ),
-      'locked' => '0',
       'module' => 'text',
       'settings' => array(),
       'translatable' => '1',
@@ -477,7 +471,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-iip_asset-field_ptiff_path'.
+  // Exported field: 'node-iip_asset-field_ptiff_path'
   $fields['node-iip_asset-field_ptiff_path'] = array(
     'field_config' => array(
       'active' => '1',
@@ -498,7 +492,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'format',
         ),
       ),
-      'locked' => '0',
       'module' => 'text',
       'settings' => array(
         'max_length' => '255',
@@ -552,7 +545,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-image_asset-field_alt_tag'.
+  // Exported field: 'node-image_asset-field_alt_tag'
   $fields['node-image_asset-field_alt_tag'] = array(
     'field_config' => array(
       'active' => '1',
@@ -573,7 +566,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'format',
         ),
       ),
-      'locked' => '0',
       'module' => 'text',
       'settings' => array(
         'max_length' => '255',
@@ -631,7 +623,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-image_asset-field_asset_thumbnail'.
+  // Exported field: 'node-image_asset-field_asset_thumbnail'
   $fields['node-image_asset-field_asset_thumbnail'] = array(
     'field_config' => array(
       'active' => '1',
@@ -652,7 +644,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'fid',
         ),
       ),
-      'locked' => '0',
       'module' => 'image',
       'settings' => array(
         'default_image' => 0,
@@ -713,7 +704,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-image_asset-field_image'.
+  // Exported field: 'node-image_asset-field_image'
   $fields['node-image_asset-field_image'] = array(
     'field_config' => array(
       'active' => '1',
@@ -734,7 +725,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'fid',
         ),
       ),
-      'locked' => '0',
       'module' => 'image',
       'settings' => array(
         'default_image' => 0,
@@ -805,7 +795,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-layered_image-field_alt_tag'.
+  // Exported field: 'node-layered_image-field_alt_tag'
   $fields['node-layered_image-field_alt_tag'] = array(
     'field_config' => array(
       'active' => '1',
@@ -826,7 +816,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'format',
         ),
       ),
-      'locked' => '0',
       'module' => 'text',
       'settings' => array(
         'max_length' => '255',
@@ -884,7 +873,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-layered_image-field_assets'.
+  // Exported field: 'node-layered_image-field_assets'
   $fields['node-layered_image-field_assets'] = array(
     'field_config' => array(
       'active' => '1',
@@ -905,7 +894,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'nid',
         ),
       ),
-      'locked' => '0',
       'module' => 'node_reference',
       'settings' => array(
         'referenceable_types' => array(
@@ -985,7 +973,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-layered_image-field_data'.
+  // Exported field: 'node-layered_image-field_data'
   $fields['node-layered_image-field_data'] = array(
     'field_config' => array(
       'active' => '1',
@@ -1006,7 +994,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'format',
         ),
       ),
-      'locked' => '0',
       'module' => 'text',
       'settings' => array(),
       'translatable' => '1',
@@ -1058,7 +1045,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-layered_image-field_image'.
+  // Exported field: 'node-layered_image-field_image'
   $fields['node-layered_image-field_image'] = array(
     'field_config' => array(
       'active' => '1',
@@ -1079,7 +1066,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'fid',
         ),
       ),
-      'locked' => '0',
       'module' => 'image',
       'settings' => array(
         'default_image' => 0,
@@ -1144,7 +1130,81 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-note-body'.
+  // Exported field: 'node-layered_image-field_slideshow'
+  $fields['node-layered_image-field_slideshow'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_slideshow',
+      'foreign keys' => array(),
+      'indexes' => array(
+        'value' => array(
+          0 => 'value',
+        ),
+      ),
+      'module' => 'list',
+      'settings' => array(
+        'allowed_values' => array(
+          0 => 'false',
+          1 => 'true',
+        ),
+        'allowed_values_function' => '',
+      ),
+      'translatable' => '0',
+      'type' => 'list_boolean',
+    ),
+    'field_instance' => array(
+      'bundle' => 'layered_image',
+      'default_value' => array(
+        0 => array(
+          'value' => 0,
+        ),
+      ),
+      'deleted' => '0',
+      'description' => 'Turn this layered image into a slideshow.',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'list',
+          'settings' => array(),
+          'type' => 'list_default',
+          'weight' => 4,
+        ),
+        'epub' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_slideshow',
+      'label' => 'Slideshow',
+      'required' => 0,
+      'settings' => array(
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'options',
+        'settings' => array(
+          'display_label' => 1,
+        ),
+        'type' => 'options_onoff',
+        'weight' => '5',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-note-body'
   $fields['node-note-body'] = array(
     'field_config' => array(
       'active' => '1',
@@ -1167,7 +1227,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'format',
         ),
       ),
-      'locked' => '0',
       'module' => 'text',
       'settings' => array(),
       'translatable' => '0',
@@ -1235,7 +1294,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-note-field_content_id'.
+  // Exported field: 'node-note-field_content_id'
   $fields['node-note-field_content_id'] = array(
     'field_config' => array(
       'active' => '1',
@@ -1256,7 +1315,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'format',
         ),
       ),
-      'locked' => '0',
       'module' => 'text',
       'settings' => array(
         'max_length' => '255',
@@ -1310,7 +1368,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-note-field_note_tags'.
+  // Exported field: 'node-note-field_note_tags'
   $fields['node-note-field_note_tags'] = array(
     'field_config' => array(
       'active' => '1',
@@ -1331,7 +1389,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'tid',
         ),
       ),
-      'locked' => '0',
       'module' => 'taxonomy',
       'settings' => array(
         'allowed_values' => array(
@@ -1404,7 +1461,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-note-field_paragraph_number'.
+  // Exported field: 'node-note-field_paragraph_number'
   $fields['node-note-field_paragraph_number'] = array(
     'field_config' => array(
       'active' => '1',
@@ -1425,7 +1482,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'format',
         ),
       ),
-      'locked' => '0',
       'module' => 'text',
       'settings' => array(
         'max_length' => '255',
@@ -1479,7 +1535,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-note-field_section'.
+  // Exported field: 'node-note-field_section'
   $fields['node-note-field_section'] = array(
     'field_config' => array(
       'active' => '1',
@@ -1500,7 +1556,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'nid',
         ),
       ),
-      'locked' => '0',
       'module' => 'node_reference',
       'settings' => array(
         'referenceable_types' => array(
@@ -1582,7 +1637,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-publication-body'.
+  // Exported field: 'node-publication-body'
   $fields['node-publication-body'] = array(
     'field_config' => array(
       'active' => '1',
@@ -1605,7 +1660,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'format',
         ),
       ),
-      'locked' => '0',
       'module' => 'text',
       'settings' => array(),
       'translatable' => '0',
@@ -1661,7 +1715,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-publication-field_nodetree'.
+  // Exported field: 'node-publication-field_nodetree'
   $fields['node-publication-field_nodetree'] = array(
     'field_config' => array(
       'active' => '1',
@@ -1671,7 +1725,6 @@ function osci_tk_features_field_default_fields() {
       'field_name' => 'field_nodetree',
       'foreign keys' => array(),
       'indexes' => array(),
-      'locked' => '0',
       'module' => 'osci_tk_nodetree',
       'settings' => array(),
       'translatable' => '0',
@@ -1741,7 +1794,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-publication-field_osci_tk_cover_image'.
+  // Exported field: 'node-publication-field_osci_tk_cover_image'
   $fields['node-publication-field_osci_tk_cover_image'] = array(
     'field_config' => array(
       'active' => '1',
@@ -1762,7 +1815,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'fid',
         ),
       ),
-      'locked' => '0',
       'module' => 'image',
       'settings' => array(
         'default_image' => 0,
@@ -1827,7 +1879,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-publication-field_osci_tk_creator'.
+  // Exported field: 'node-publication-field_osci_tk_creator'
   $fields['node-publication-field_osci_tk_creator'] = array(
     'field_config' => array(
       'active' => '1',
@@ -1848,7 +1900,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'format',
         ),
       ),
-      'locked' => '0',
       'module' => 'text',
       'settings' => array(
         'max_length' => '1024',
@@ -1902,7 +1953,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-publication-field_osci_tk_description'.
+  // Exported field: 'node-publication-field_osci_tk_description'
   $fields['node-publication-field_osci_tk_description'] = array(
     'field_config' => array(
       'active' => '1',
@@ -1923,7 +1974,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'format',
         ),
       ),
-      'locked' => '0',
       'module' => 'text',
       'settings' => array(),
       'translatable' => '0',
@@ -1975,7 +2025,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-publication-field_osci_tk_editor'.
+  // Exported field: 'node-publication-field_osci_tk_editor'
   $fields['node-publication-field_osci_tk_editor'] = array(
     'field_config' => array(
       'active' => '1',
@@ -1996,7 +2046,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'format',
         ),
       ),
-      'locked' => '0',
       'module' => 'text',
       'settings' => array(
         'max_length' => '255',
@@ -2050,7 +2099,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-publication-field_osci_tk_identifier'.
+  // Exported field: 'node-publication-field_osci_tk_identifier'
   $fields['node-publication-field_osci_tk_identifier'] = array(
     'field_config' => array(
       'active' => '1',
@@ -2060,7 +2109,6 @@ function osci_tk_features_field_default_fields() {
       'field_name' => 'field_osci_tk_identifier',
       'foreign keys' => array(),
       'indexes' => array(),
-      'locked' => '0',
       'module' => 'osci_tk_utility',
       'settings' => array(),
       'translatable' => '0',
@@ -2109,7 +2157,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-publication-field_osci_tk_publisher'.
+  // Exported field: 'node-publication-field_osci_tk_publisher'
   $fields['node-publication-field_osci_tk_publisher'] = array(
     'field_config' => array(
       'active' => '1',
@@ -2130,7 +2178,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'format',
         ),
       ),
-      'locked' => '0',
       'module' => 'text',
       'settings' => array(
         'max_length' => '1024',
@@ -2184,7 +2231,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-publication-field_osci_tk_rights'.
+  // Exported field: 'node-publication-field_osci_tk_rights'
   $fields['node-publication-field_osci_tk_rights'] = array(
     'field_config' => array(
       'active' => '1',
@@ -2205,7 +2252,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'format',
         ),
       ),
-      'locked' => '0',
       'module' => 'text',
       'settings' => array(),
       'translatable' => '0',
@@ -2257,7 +2303,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-publication-field_osci_tk_subject'.
+  // Exported field: 'node-publication-field_osci_tk_subject'
   $fields['node-publication-field_osci_tk_subject'] = array(
     'field_config' => array(
       'active' => '1',
@@ -2278,7 +2324,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'tid',
         ),
       ),
-      'locked' => '0',
       'module' => 'taxonomy',
       'settings' => array(
         'allowed_values' => array(
@@ -2337,7 +2382,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-publication-field_publication_date'.
+  // Exported field: 'node-publication-field_publication_date'
   $fields['node-publication-field_publication_date'] = array(
     'field_config' => array(
       'active' => '1',
@@ -2358,7 +2403,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'format',
         ),
       ),
-      'locked' => '0',
       'module' => 'text',
       'settings' => array(
         'max_length' => '255',
@@ -2412,7 +2456,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-publication-field_vocabulary'.
+  // Exported field: 'node-publication-field_vocabulary'
   $fields['node-publication-field_vocabulary'] = array(
     'field_config' => array(
       'active' => '1',
@@ -2426,7 +2470,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'vocab_id',
         ),
       ),
-      'locked' => '0',
       'module' => 'osci_tk_glossary',
       'settings' => array(),
       'translatable' => '0',
@@ -2475,7 +2518,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-section-field_active'.
+  // Exported field: 'node-section-field_active'
   $fields['node-section-field_active'] = array(
     'field_config' => array(
       'active' => '1',
@@ -2489,7 +2532,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'value',
         ),
       ),
-      'locked' => '0',
       'module' => 'list',
       'settings' => array(
         'allowed_values' => array(
@@ -2550,7 +2592,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-section-field_author_curatorial_entry'.
+  // Exported field: 'node-section-field_author_curatorial_entry'
   $fields['node-section-field_author_curatorial_entry'] = array(
     'field_config' => array(
       'active' => '1',
@@ -2571,7 +2613,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'format',
         ),
       ),
-      'locked' => '0',
       'module' => 'text',
       'settings' => array(
         'max_length' => '255',
@@ -2624,7 +2665,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-section-field_authors_body'.
+  // Exported field: 'node-section-field_authors_body'
   $fields['node-section-field_authors_body'] = array(
     'field_config' => array(
       'active' => '1',
@@ -2645,7 +2686,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'format',
         ),
       ),
-      'locked' => '0',
       'module' => 'text',
       'settings' => array(
         'max_length' => '255',
@@ -2699,7 +2739,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-section-field_body'.
+  // Exported field: 'node-section-field_body'
   $fields['node-section-field_body'] = array(
     'field_config' => array(
       'active' => '1',
@@ -2720,7 +2760,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'format',
         ),
       ),
-      'locked' => '0',
       'module' => 'text',
       'settings' => array(),
       'translatable' => '0',
@@ -2773,7 +2812,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-section-field_curatorial_entry'.
+  // Exported field: 'node-section-field_curatorial_entry'
   $fields['node-section-field_curatorial_entry'] = array(
     'field_config' => array(
       'active' => '1',
@@ -2794,7 +2833,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'format',
         ),
       ),
-      'locked' => '0',
       'module' => 'text',
       'settings' => array(),
       'translatable' => '0',
@@ -2847,7 +2885,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-section-field_figure'.
+  // Exported field: 'node-section-field_figure'
   $fields['node-section-field_figure'] = array(
     'field_config' => array(
       'active' => '1',
@@ -2857,7 +2895,6 @@ function osci_tk_features_field_default_fields() {
       'field_name' => 'field_figure',
       'foreign keys' => array(),
       'indexes' => array(),
-      'locked' => '0',
       'module' => 'osci_tk_figure',
       'settings' => array(),
       'translatable' => '0',
@@ -2900,6 +2937,7 @@ function osci_tk_features_field_default_fields() {
         'module' => 'osci_tk_figure',
         'settings' => array(
           'osci_tk_figure_types' => array(
+            '360_slider' => '360_slider',
             'about_catalogue' => 0,
             'about_this_catalogue' => 0,
             'collector' => 0,
@@ -2927,7 +2965,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-section-field_file'.
+  // Exported field: 'node-section-field_file'
   $fields['node-section-field_file'] = array(
     'field_config' => array(
       'active' => '1',
@@ -2948,7 +2986,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'fid',
         ),
       ),
-      'locked' => '0',
       'module' => 'file',
       'settings' => array(
         'display_default' => 0,
@@ -3006,7 +3043,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-section-field_footnote'.
+  // Exported field: 'node-section-field_footnote'
   $fields['node-section-field_footnote'] = array(
     'field_config' => array(
       'active' => '1',
@@ -3027,7 +3064,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'format',
         ),
       ),
-      'locked' => '0',
       'module' => 'text',
       'settings' => array(),
       'translatable' => '0',
@@ -3080,7 +3116,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-section-field_navigation_title'.
+  // Exported field: 'node-section-field_navigation_title'
   $fields['node-section-field_navigation_title'] = array(
     'field_config' => array(
       'active' => '1',
@@ -3101,7 +3137,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'format',
         ),
       ),
-      'locked' => '0',
       'module' => 'text',
       'settings' => array(),
       'translatable' => '0',
@@ -3153,7 +3188,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-section-field_section_image'.
+  // Exported field: 'node-section-field_section_image'
   $fields['node-section-field_section_image'] = array(
     'field_config' => array(
       'active' => '1',
@@ -3174,7 +3209,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'fid',
         ),
       ),
-      'locked' => '0',
       'module' => 'image',
       'settings' => array(
         'default_image' => 0,
@@ -3239,7 +3273,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-section-field_subtitle'.
+  // Exported field: 'node-section-field_subtitle'
   $fields['node-section-field_subtitle'] = array(
     'field_config' => array(
       'active' => '1',
@@ -3260,7 +3294,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'format',
         ),
       ),
-      'locked' => '0',
       'module' => 'text',
       'settings' => array(
         'max_length' => '255',
@@ -3314,7 +3347,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-svg_asset-field_asset_thumbnail'.
+  // Exported field: 'node-svg_asset-field_asset_thumbnail'
   $fields['node-svg_asset-field_asset_thumbnail'] = array(
     'field_config' => array(
       'active' => '1',
@@ -3335,7 +3368,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'fid',
         ),
       ),
-      'locked' => '0',
       'module' => 'image',
       'settings' => array(
         'default_image' => 0,
@@ -3396,7 +3428,7 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-svg_asset-field_svg'.
+  // Exported field: 'node-svg_asset-field_svg'
   $fields['node-svg_asset-field_svg'] = array(
     'field_config' => array(
       'active' => '1',
@@ -3417,7 +3449,6 @@ function osci_tk_features_field_default_fields() {
           0 => 'fid',
         ),
       ),
-      'locked' => '0',
       'module' => 'file',
       'settings' => array(
         'display_default' => 0,
@@ -3481,8 +3512,2102 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
+  // Exported field: 'node-work_of_art-field_accession'
+  $fields['node-work_of_art-field_accession'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_accession',
+      'foreign keys' => array(
+        'format' => array(
+          'columns' => array(
+            'format' => 'format',
+          ),
+          'table' => 'filter_format',
+        ),
+      ),
+      'indexes' => array(
+        'format' => array(
+          0 => 'format',
+        ),
+      ),
+      'module' => 'text',
+      'settings' => array(
+        'max_length' => '255',
+      ),
+      'translatable' => '0',
+      'type' => 'text',
+    ),
+    'field_instance' => array(
+      'bundle' => 'work_of_art',
+      'default_value' => NULL,
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_default',
+          'weight' => '9',
+        ),
+        'epub' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '23',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_accession',
+      'label' => 'Accession',
+      'required' => 0,
+      'settings' => array(
+        'text_processing' => '0',
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'text',
+        'settings' => array(
+          'size' => '60',
+        ),
+        'type' => 'text_textfield',
+        'weight' => '12',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-work_of_art-field_active'
+  $fields['node-work_of_art-field_active'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_active',
+      'foreign keys' => array(),
+      'indexes' => array(
+        'value' => array(
+          0 => 'value',
+        ),
+      ),
+      'module' => 'list',
+      'settings' => array(
+        'allowed_values' => array(
+          0 => 'No',
+          1 => 'Yes',
+        ),
+        'allowed_values_function' => '',
+      ),
+      'translatable' => '0',
+      'type' => 'list_boolean',
+    ),
+    'field_instance' => array(
+      'bundle' => 'work_of_art',
+      'default_value' => array(
+        0 => array(
+          'value' => 0,
+        ),
+      ),
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'list',
+          'settings' => array(),
+          'type' => 'list_default',
+          'weight' => '3',
+        ),
+        'epub' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '18',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_active',
+      'label' => 'Active',
+      'required' => 0,
+      'settings' => array(
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'options',
+        'settings' => array(
+          'display_label' => 1,
+        ),
+        'type' => 'options_onoff',
+        'weight' => '5',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-work_of_art-field_author_curatorial_entry'
+  $fields['node-work_of_art-field_author_curatorial_entry'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_author_curatorial_entry',
+      'foreign keys' => array(
+        'format' => array(
+          'columns' => array(
+            'format' => 'format',
+          ),
+          'table' => 'filter_format',
+        ),
+      ),
+      'indexes' => array(
+        'format' => array(
+          0 => 'format',
+        ),
+      ),
+      'module' => 'text',
+      'settings' => array(
+        'max_length' => '255',
+      ),
+      'translatable' => '0',
+      'type' => 'text',
+    ),
+    'field_instance' => array(
+      'bundle' => 'work_of_art',
+      'default_value' => NULL,
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_default',
+          'weight' => '13',
+        ),
+        'epub' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '15',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_author_curatorial_entry',
+      'label' => 'Author',
+      'required' => 0,
+      'settings' => array(
+        'text_processing' => '0',
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'text',
+        'settings' => array(
+          'size' => '60',
+        ),
+        'type' => 'text_textfield',
+        'weight' => '26',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-work_of_art-field_author_curatorial_entry2'
+  $fields['node-work_of_art-field_author_curatorial_entry2'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_author_curatorial_entry2',
+      'foreign keys' => array(
+        'format' => array(
+          'columns' => array(
+            'format' => 'format',
+          ),
+          'table' => 'filter_format',
+        ),
+      ),
+      'indexes' => array(
+        'format' => array(
+          0 => 'format',
+        ),
+      ),
+      'module' => 'text',
+      'settings' => array(
+        'max_length' => '255',
+      ),
+      'translatable' => '0',
+      'type' => 'text',
+    ),
+    'field_instance' => array(
+      'bundle' => 'work_of_art',
+      'default_value' => NULL,
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_default',
+          'weight' => '16',
+        ),
+        'epub' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '10',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_author_curatorial_entry2',
+      'label' => 'Author',
+      'required' => 0,
+      'settings' => array(
+        'text_processing' => '0',
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'text',
+        'settings' => array(
+          'size' => '60',
+        ),
+        'type' => 'text_textfield',
+        'weight' => '29',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-work_of_art-field_author_technical_report'
+  $fields['node-work_of_art-field_author_technical_report'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_author_technical_report',
+      'foreign keys' => array(
+        'format' => array(
+          'columns' => array(
+            'format' => 'format',
+          ),
+          'table' => 'filter_format',
+        ),
+      ),
+      'indexes' => array(
+        'format' => array(
+          0 => 'format',
+        ),
+      ),
+      'module' => 'text',
+      'settings' => array(
+        'max_length' => '255',
+      ),
+      'translatable' => '0',
+      'type' => 'text',
+    ),
+    'field_instance' => array(
+      'bundle' => 'work_of_art',
+      'default_value' => NULL,
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_default',
+          'weight' => '18',
+        ),
+        'epub' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '14',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_author_technical_report',
+      'label' => 'Author',
+      'required' => 0,
+      'settings' => array(
+        'text_processing' => '0',
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'text',
+        'settings' => array(
+          'size' => '60',
+        ),
+        'type' => 'text_textfield',
+        'weight' => '33',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-work_of_art-field_authors_tombstone'
+  $fields['node-work_of_art-field_authors_tombstone'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_authors_tombstone',
+      'foreign keys' => array(
+        'format' => array(
+          'columns' => array(
+            'format' => 'format',
+          ),
+          'table' => 'filter_format',
+        ),
+      ),
+      'indexes' => array(
+        'format' => array(
+          0 => 'format',
+        ),
+      ),
+      'module' => 'text',
+      'settings' => array(
+        'max_length' => '255',
+      ),
+      'translatable' => '0',
+      'type' => 'text',
+    ),
+    'field_instance' => array(
+      'bundle' => 'work_of_art',
+      'default_value' => NULL,
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_default',
+          'weight' => '10',
+        ),
+        'epub' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '17',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_authors_tombstone',
+      'label' => 'Authors',
+      'required' => 0,
+      'settings' => array(
+        'text_processing' => '0',
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'text',
+        'settings' => array(
+          'size' => '60',
+        ),
+        'type' => 'text_textfield',
+        'weight' => '13',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-work_of_art-field_catalogue_number'
+  $fields['node-work_of_art-field_catalogue_number'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_catalogue_number',
+      'foreign keys' => array(
+        'format' => array(
+          'columns' => array(
+            'format' => 'format',
+          ),
+          'table' => 'filter_format',
+        ),
+      ),
+      'indexes' => array(
+        'format' => array(
+          0 => 'format',
+        ),
+      ),
+      'module' => 'text',
+      'settings' => array(
+        'max_length' => '255',
+      ),
+      'translatable' => '0',
+      'type' => 'text',
+    ),
+    'field_instance' => array(
+      'bundle' => 'work_of_art',
+      'default_value' => NULL,
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_default',
+          'weight' => '1',
+        ),
+        'epub' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '20',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_catalogue_number',
+      'label' => 'Catalogue #',
+      'required' => 0,
+      'settings' => array(
+        'text_processing' => '0',
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'text',
+        'settings' => array(
+          'size' => '60',
+        ),
+        'type' => 'text_textfield',
+        'weight' => '3',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-work_of_art-field_creation'
+  $fields['node-work_of_art-field_creation'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_creation',
+      'foreign keys' => array(
+        'format' => array(
+          'columns' => array(
+            'format' => 'format',
+          ),
+          'table' => 'filter_format',
+        ),
+      ),
+      'indexes' => array(
+        'format' => array(
+          0 => 'format',
+        ),
+      ),
+      'module' => 'text',
+      'settings' => array(
+        'max_length' => '255',
+      ),
+      'translatable' => '0',
+      'type' => 'text',
+    ),
+    'field_instance' => array(
+      'bundle' => 'work_of_art',
+      'default_value' => NULL,
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_default',
+          'weight' => '6',
+        ),
+        'epub' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '26',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_creation',
+      'label' => 'Creation',
+      'required' => 0,
+      'settings' => array(
+        'text_processing' => '0',
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'text',
+        'settings' => array(
+          'size' => '60',
+        ),
+        'type' => 'text_textfield',
+        'weight' => '9',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-work_of_art-field_creator'
+  $fields['node-work_of_art-field_creator'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_creator',
+      'foreign keys' => array(
+        'format' => array(
+          'columns' => array(
+            'format' => 'format',
+          ),
+          'table' => 'filter_format',
+        ),
+      ),
+      'indexes' => array(
+        'format' => array(
+          0 => 'format',
+        ),
+      ),
+      'module' => 'text',
+      'settings' => array(),
+      'translatable' => '0',
+      'type' => 'text_long',
+    ),
+    'field_instance' => array(
+      'bundle' => 'work_of_art',
+      'default_value' => NULL,
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_default',
+          'weight' => '4',
+        ),
+        'epub' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '21',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_creator',
+      'label' => 'Creator',
+      'required' => 0,
+      'settings' => array(
+        'text_processing' => '0',
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'text',
+        'settings' => array(
+          'rows' => '5',
+        ),
+        'type' => 'text_textarea',
+        'weight' => '7',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-work_of_art-field_credit_line'
+  $fields['node-work_of_art-field_credit_line'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_credit_line',
+      'foreign keys' => array(
+        'format' => array(
+          'columns' => array(
+            'format' => 'format',
+          ),
+          'table' => 'filter_format',
+        ),
+      ),
+      'indexes' => array(
+        'format' => array(
+          0 => 'format',
+        ),
+      ),
+      'module' => 'text',
+      'settings' => array(),
+      'translatable' => '0',
+      'type' => 'text_long',
+    ),
+    'field_instance' => array(
+      'bundle' => 'work_of_art',
+      'default_value' => NULL,
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_default',
+          'weight' => '8',
+        ),
+        'epub' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '24',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_credit_line',
+      'label' => 'Credit Line',
+      'required' => 0,
+      'settings' => array(
+        'text_processing' => '0',
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'text',
+        'settings' => array(
+          'rows' => '5',
+        ),
+        'type' => 'text_textarea',
+        'weight' => '11',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-work_of_art-field_curatorial_entry'
+  $fields['node-work_of_art-field_curatorial_entry'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_curatorial_entry',
+      'foreign keys' => array(
+        'format' => array(
+          'columns' => array(
+            'format' => 'format',
+          ),
+          'table' => 'filter_format',
+        ),
+      ),
+      'indexes' => array(
+        'format' => array(
+          0 => 'format',
+        ),
+      ),
+      'module' => 'text',
+      'settings' => array(),
+      'translatable' => '0',
+      'type' => 'text_long',
+    ),
+    'field_instance' => array(
+      'bundle' => 'work_of_art',
+      'default_value' => NULL,
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_default',
+          'weight' => '14',
+        ),
+        'epub' => array(
+          'label' => 'hidden',
+          'module' => 'osci_tk_epub',
+          'settings' => array(),
+          'type' => 'osci_tk_section',
+          'weight' => '1',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_curatorial_entry',
+      'label' => 'Curatorial Entry',
+      'required' => 0,
+      'settings' => array(
+        'text_processing' => '1',
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'text',
+        'settings' => array(
+          'rows' => '5',
+        ),
+        'type' => 'text_textarea',
+        'weight' => '27',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-work_of_art-field_curatorial_entry2'
+  $fields['node-work_of_art-field_curatorial_entry2'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_curatorial_entry2',
+      'foreign keys' => array(
+        'format' => array(
+          'columns' => array(
+            'format' => 'format',
+          ),
+          'table' => 'filter_format',
+        ),
+      ),
+      'indexes' => array(
+        'format' => array(
+          0 => 'format',
+        ),
+      ),
+      'module' => 'text',
+      'settings' => array(),
+      'translatable' => '0',
+      'type' => 'text_long',
+    ),
+    'field_instance' => array(
+      'bundle' => 'work_of_art',
+      'default_value' => NULL,
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_default',
+          'weight' => '17',
+        ),
+        'epub' => array(
+          'label' => 'hidden',
+          'module' => 'osci_tk_epub',
+          'settings' => array(),
+          'type' => 'osci_tk_section',
+          'weight' => '2',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_curatorial_entry2',
+      'label' => 'Curatorial Entry 2',
+      'required' => 0,
+      'settings' => array(
+        'text_processing' => '1',
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'text',
+        'settings' => array(
+          'rows' => '5',
+        ),
+        'type' => 'text_textarea',
+        'weight' => '30',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-work_of_art-field_donated_by'
+  $fields['node-work_of_art-field_donated_by'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_donated_by',
+      'foreign keys' => array(
+        'nid' => array(
+          'columns' => array(
+            'nid' => 'nid',
+          ),
+          'table' => 'node',
+        ),
+      ),
+      'indexes' => array(
+        'nid' => array(
+          0 => 'nid',
+        ),
+      ),
+      'module' => 'node_reference',
+      'settings' => array(
+        'referenceable_types' => array(
+          'about_this_catalogue' => 0,
+          'collector' => 'collector',
+          'conservation_asset' => 0,
+          'file_asset' => 0,
+          'html_figure' => 0,
+          'iip_asset' => 0,
+          'image_asset' => 0,
+          'note' => 0,
+          'publication' => 0,
+          'section' => 0,
+          'svg_asset' => 0,
+          'title_pages' => 0,
+          'volume' => 0,
+          'work_of_art' => 0,
+        ),
+        'view' => array(
+          'args' => array(),
+          'display_name' => '',
+          'view_name' => '',
+        ),
+      ),
+      'translatable' => '0',
+      'type' => 'node_reference',
+    ),
+    'field_instance' => array(
+      'bundle' => 'work_of_art',
+      'default_value' => NULL,
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'node_reference',
+          'settings' => array(),
+          'type' => 'node_reference_default',
+          'weight' => '2',
+        ),
+        'epub' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '19',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_donated_by',
+      'label' => 'Donor / Collector',
+      'required' => 0,
+      'settings' => array(
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'node_reference',
+        'settings' => array(
+          'autocomplete_match' => 'contains',
+          'autocomplete_path' => 'node_reference/autocomplete',
+          'size' => '60',
+        ),
+        'type' => 'node_reference_autocomplete',
+        'weight' => '4',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-work_of_art-field_exhibitions'
+  $fields['node-work_of_art-field_exhibitions'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_exhibitions',
+      'foreign keys' => array(
+        'format' => array(
+          'columns' => array(
+            'format' => 'format',
+          ),
+          'table' => 'filter_format',
+        ),
+      ),
+      'indexes' => array(
+        'format' => array(
+          0 => 'format',
+        ),
+      ),
+      'module' => 'text',
+      'settings' => array(),
+      'translatable' => '0',
+      'type' => 'text_long',
+    ),
+    'field_instance' => array(
+      'bundle' => 'work_of_art',
+      'default_value' => NULL,
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_default',
+          'weight' => '22',
+        ),
+        'epub' => array(
+          'label' => 'hidden',
+          'module' => 'osci_tk_epub',
+          'settings' => array(),
+          'type' => 'osci_tk_section',
+          'weight' => '5',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_exhibitions',
+      'label' => 'Exhibitions',
+      'required' => 0,
+      'settings' => array(
+        'text_processing' => '1',
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'text',
+        'settings' => array(
+          'rows' => '5',
+        ),
+        'type' => 'text_textarea',
+        'weight' => '18',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-work_of_art-field_figure'
+  $fields['node-work_of_art-field_figure'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '-1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_figure',
+      'foreign keys' => array(),
+      'indexes' => array(),
+      'module' => 'osci_tk_figure',
+      'settings' => array(),
+      'translatable' => '0',
+      'type' => 'osci_tk_figure',
+    ),
+    'field_instance' => array(
+      'bundle' => 'work_of_art',
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'osci_tk_figure',
+          'settings' => array(),
+          'type' => 'osci_tk_figure',
+          'weight' => '26',
+        ),
+        'epub' => array(
+          'label' => 'hidden',
+          'module' => 'osci_tk_figure',
+          'settings' => array(),
+          'type' => 'osci_tk_figure',
+          'weight' => '9',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_figure',
+      'label' => 'Figures',
+      'required' => 0,
+      'settings' => array(
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'osci_tk_figure',
+        'settings' => array(
+          'osci_tk_figure_types' => array(
+            '360_slider' => '360_slider',
+            'about_catalogue' => 0,
+            'about_this_catalogue' => 0,
+            'collector' => 0,
+            'conservation_asset' => 'conservation_asset',
+            'figure_gallery' => 0,
+            'file_asset' => 0,
+            'html_asset' => 'html_asset',
+            'html_figure' => 'html_figure',
+            'iip_asset' => 'iip_asset',
+            'image_asset' => 'image_asset',
+            'layered_image' => 'layered_image',
+            'note' => 0,
+            'publication' => 0,
+            'section' => 0,
+            'svg_asset' => 'svg_asset',
+            'title_pages' => 0,
+            'volume' => 0,
+            'work_of_art' => 0,
+          ),
+          'osci_tk_number_template' => 'fig. cat#.fig#',
+        ),
+        'type' => 'osci_tk_figure_widget',
+        'weight' => '24',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-work_of_art-field_file'
+  $fields['node-work_of_art-field_file'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '-1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_file',
+      'foreign keys' => array(
+        'fid' => array(
+          'columns' => array(
+            'fid' => 'fid',
+          ),
+          'table' => 'file_managed',
+        ),
+      ),
+      'indexes' => array(
+        'fid' => array(
+          0 => 'fid',
+        ),
+      ),
+      'module' => 'file',
+      'settings' => array(
+        'display_default' => 0,
+        'display_field' => 0,
+        'uri_scheme' => 'public',
+      ),
+      'translatable' => '0',
+      'type' => 'file',
+    ),
+    'field_instance' => array(
+      'bundle' => 'work_of_art',
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'file',
+          'settings' => array(),
+          'type' => 'file_default',
+          'weight' => '25',
+        ),
+        'epub' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '16',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_file',
+      'label' => 'Attached Files',
+      'required' => 0,
+      'settings' => array(
+        'description_field' => 0,
+        'file_directory' => '',
+        'file_extensions' => 'txt',
+        'max_filesize' => '',
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'file',
+        'settings' => array(
+          'progress_indicator' => 'throbber',
+        ),
+        'type' => 'file_generic',
+        'weight' => '22',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-work_of_art-field_footnote'
+  $fields['node-work_of_art-field_footnote'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '-1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_footnote',
+      'foreign keys' => array(
+        'format' => array(
+          'columns' => array(
+            'format' => 'format',
+          ),
+          'table' => 'filter_format',
+        ),
+      ),
+      'indexes' => array(
+        'format' => array(
+          0 => 'format',
+        ),
+      ),
+      'module' => 'text',
+      'settings' => array(),
+      'translatable' => '0',
+      'type' => 'text_long',
+    ),
+    'field_instance' => array(
+      'bundle' => 'work_of_art',
+      'default_value' => NULL,
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_default',
+          'weight' => '27',
+        ),
+        'epub' => array(
+          'label' => 'hidden',
+          'module' => 'osci_tk_epub',
+          'settings' => array(),
+          'type' => 'osci_tk_section',
+          'weight' => '8',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_footnote',
+      'label' => 'Footnotes',
+      'required' => 0,
+      'settings' => array(
+        'text_processing' => '1',
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'text',
+        'settings' => array(
+          'rows' => '5',
+        ),
+        'type' => 'text_textarea',
+        'weight' => '3',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-work_of_art-field_materials'
+  $fields['node-work_of_art-field_materials'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_materials',
+      'foreign keys' => array(
+        'format' => array(
+          'columns' => array(
+            'format' => 'format',
+          ),
+          'table' => 'filter_format',
+        ),
+      ),
+      'indexes' => array(
+        'format' => array(
+          0 => 'format',
+        ),
+      ),
+      'module' => 'text',
+      'settings' => array(),
+      'translatable' => '0',
+      'type' => 'text_long',
+    ),
+    'field_instance' => array(
+      'bundle' => 'work_of_art',
+      'default_value' => NULL,
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_default',
+          'weight' => '7',
+        ),
+        'epub' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '25',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_materials',
+      'label' => 'Materials',
+      'required' => 0,
+      'settings' => array(
+        'text_processing' => '0',
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'text',
+        'settings' => array(
+          'rows' => '5',
+        ),
+        'type' => 'text_textarea',
+        'weight' => '10',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-work_of_art-field_navigation_title'
+  $fields['node-work_of_art-field_navigation_title'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_navigation_title',
+      'foreign keys' => array(
+        'format' => array(
+          'columns' => array(
+            'format' => 'format',
+          ),
+          'table' => 'filter_format',
+        ),
+      ),
+      'indexes' => array(
+        'format' => array(
+          0 => 'format',
+        ),
+      ),
+      'module' => 'text',
+      'settings' => array(),
+      'translatable' => '0',
+      'type' => 'text_long',
+    ),
+    'field_instance' => array(
+      'bundle' => 'work_of_art',
+      'default_value' => NULL,
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_default',
+          'weight' => '0',
+        ),
+        'epub' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '27',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_navigation_title',
+      'label' => 'Navigation Title',
+      'required' => 0,
+      'settings' => array(
+        'text_processing' => '1',
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'text',
+        'settings' => array(
+          'rows' => '5',
+        ),
+        'type' => 'text_textarea',
+        'weight' => '2',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-work_of_art-field_other_documentation'
+  $fields['node-work_of_art-field_other_documentation'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_other_documentation',
+      'foreign keys' => array(
+        'format' => array(
+          'columns' => array(
+            'format' => 'format',
+          ),
+          'table' => 'filter_format',
+        ),
+      ),
+      'indexes' => array(
+        'format' => array(
+          0 => 'format',
+        ),
+      ),
+      'module' => 'text',
+      'settings' => array(),
+      'translatable' => '0',
+      'type' => 'text_long',
+    ),
+    'field_instance' => array(
+      'bundle' => 'work_of_art',
+      'default_value' => NULL,
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_default',
+          'weight' => '24',
+        ),
+        'epub' => array(
+          'label' => 'hidden',
+          'module' => 'osci_tk_epub',
+          'settings' => array(),
+          'type' => 'osci_tk_section',
+          'weight' => '7',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_other_documentation',
+      'label' => 'Other Documentation',
+      'required' => 0,
+      'settings' => array(
+        'text_processing' => '1',
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'text',
+        'settings' => array(
+          'rows' => '5',
+        ),
+        'type' => 'text_textarea',
+        'weight' => '20',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-work_of_art-field_provenance'
+  $fields['node-work_of_art-field_provenance'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_provenance',
+      'foreign keys' => array(
+        'format' => array(
+          'columns' => array(
+            'format' => 'format',
+          ),
+          'table' => 'filter_format',
+        ),
+      ),
+      'indexes' => array(
+        'format' => array(
+          0 => 'format',
+        ),
+      ),
+      'module' => 'text',
+      'settings' => array(),
+      'translatable' => '0',
+      'type' => 'text_long',
+    ),
+    'field_instance' => array(
+      'bundle' => 'work_of_art',
+      'default_value' => NULL,
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_default',
+          'weight' => '21',
+        ),
+        'epub' => array(
+          'label' => 'hidden',
+          'module' => 'osci_tk_epub',
+          'settings' => array(),
+          'type' => 'osci_tk_section',
+          'weight' => '4',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_provenance',
+      'label' => 'Provenance',
+      'required' => 0,
+      'settings' => array(
+        'text_processing' => '1',
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'text',
+        'settings' => array(
+          'rows' => '5',
+        ),
+        'type' => 'text_textarea',
+        'weight' => '17',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-work_of_art-field_references'
+  $fields['node-work_of_art-field_references'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_references',
+      'foreign keys' => array(
+        'format' => array(
+          'columns' => array(
+            'format' => 'format',
+          ),
+          'table' => 'filter_format',
+        ),
+      ),
+      'indexes' => array(
+        'format' => array(
+          0 => 'format',
+        ),
+      ),
+      'module' => 'text',
+      'settings' => array(),
+      'translatable' => '0',
+      'type' => 'text_long',
+    ),
+    'field_instance' => array(
+      'bundle' => 'work_of_art',
+      'default_value' => NULL,
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_default',
+          'weight' => '23',
+        ),
+        'epub' => array(
+          'label' => 'hidden',
+          'module' => 'osci_tk_epub',
+          'settings' => array(),
+          'type' => 'osci_tk_section',
+          'weight' => '6',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_references',
+      'label' => 'Selected References',
+      'required' => 0,
+      'settings' => array(
+        'text_processing' => '1',
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'text',
+        'settings' => array(
+          'rows' => '5',
+        ),
+        'type' => 'text_textarea',
+        'weight' => '19',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-work_of_art-field_technical_report'
+  $fields['node-work_of_art-field_technical_report'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_technical_report',
+      'foreign keys' => array(
+        'format' => array(
+          'columns' => array(
+            'format' => 'format',
+          ),
+          'table' => 'filter_format',
+        ),
+      ),
+      'indexes' => array(
+        'format' => array(
+          0 => 'format',
+        ),
+      ),
+      'module' => 'text',
+      'settings' => array(),
+      'translatable' => '0',
+      'type' => 'text_long',
+    ),
+    'field_instance' => array(
+      'bundle' => 'work_of_art',
+      'default_value' => NULL,
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_default',
+          'weight' => '20',
+        ),
+        'epub' => array(
+          'label' => 'hidden',
+          'module' => 'osci_tk_epub',
+          'settings' => array(),
+          'type' => 'osci_tk_section',
+          'weight' => '3',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_technical_report',
+      'label' => 'Technical Report',
+      'required' => 0,
+      'settings' => array(
+        'text_processing' => '1',
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'text',
+        'settings' => array(
+          'rows' => '5',
+        ),
+        'type' => 'text_textarea',
+        'weight' => '34',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-work_of_art-field_title_curatorial_entry'
+  $fields['node-work_of_art-field_title_curatorial_entry'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_title_curatorial_entry',
+      'foreign keys' => array(
+        'format' => array(
+          'columns' => array(
+            'format' => 'format',
+          ),
+          'table' => 'filter_format',
+        ),
+      ),
+      'indexes' => array(
+        'format' => array(
+          0 => 'format',
+        ),
+      ),
+      'module' => 'text',
+      'settings' => array(
+        'max_length' => '255',
+      ),
+      'translatable' => '0',
+      'type' => 'text',
+    ),
+    'field_instance' => array(
+      'bundle' => 'work_of_art',
+      'default_value' => array(
+        0 => array(
+          'value' => 'Curatorial Entry',
+        ),
+      ),
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_default',
+          'weight' => '12',
+        ),
+        'epub' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '12',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_title_curatorial_entry',
+      'label' => 'Title',
+      'required' => 0,
+      'settings' => array(
+        'text_processing' => '0',
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'text',
+        'settings' => array(
+          'size' => '60',
+        ),
+        'type' => 'text_textfield',
+        'weight' => '25',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-work_of_art-field_title_curatorial_entry2'
+  $fields['node-work_of_art-field_title_curatorial_entry2'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_title_curatorial_entry2',
+      'foreign keys' => array(
+        'format' => array(
+          'columns' => array(
+            'format' => 'format',
+          ),
+          'table' => 'filter_format',
+        ),
+      ),
+      'indexes' => array(
+        'format' => array(
+          0 => 'format',
+        ),
+      ),
+      'module' => 'text',
+      'settings' => array(
+        'max_length' => '255',
+      ),
+      'translatable' => '0',
+      'type' => 'text',
+    ),
+    'field_instance' => array(
+      'bundle' => 'work_of_art',
+      'default_value' => NULL,
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_default',
+          'weight' => '15',
+        ),
+        'epub' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '11',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_title_curatorial_entry2',
+      'label' => 'Title',
+      'required' => 0,
+      'settings' => array(
+        'text_processing' => '0',
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'text',
+        'settings' => array(
+          'size' => '60',
+        ),
+        'type' => 'text_textfield',
+        'weight' => '28',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-work_of_art-field_title_technical_report'
+  $fields['node-work_of_art-field_title_technical_report'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_title_technical_report',
+      'foreign keys' => array(
+        'format' => array(
+          'columns' => array(
+            'format' => 'format',
+          ),
+          'table' => 'filter_format',
+        ),
+      ),
+      'indexes' => array(
+        'format' => array(
+          0 => 'format',
+        ),
+      ),
+      'module' => 'text',
+      'settings' => array(
+        'max_length' => '255',
+      ),
+      'translatable' => '0',
+      'type' => 'text',
+    ),
+    'field_instance' => array(
+      'bundle' => 'work_of_art',
+      'default_value' => array(
+        0 => array(
+          'value' => 'Technical Report',
+        ),
+      ),
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_default',
+          'weight' => '19',
+        ),
+        'epub' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '13',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_title_technical_report',
+      'label' => 'Title',
+      'required' => 0,
+      'settings' => array(
+        'text_processing' => '0',
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'text',
+        'settings' => array(
+          'size' => '60',
+        ),
+        'type' => 'text_textfield',
+        'weight' => '32',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-work_of_art-field_tombstone'
+  $fields['node-work_of_art-field_tombstone'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_tombstone',
+      'foreign keys' => array(
+        'format' => array(
+          'columns' => array(
+            'format' => 'format',
+          ),
+          'table' => 'filter_format',
+        ),
+      ),
+      'indexes' => array(
+        'format' => array(
+          0 => 'format',
+        ),
+      ),
+      'module' => 'text',
+      'settings' => array(),
+      'translatable' => '0',
+      'type' => 'text_long',
+    ),
+    'field_instance' => array(
+      'bundle' => 'work_of_art',
+      'default_value' => NULL,
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_default',
+          'weight' => '11',
+        ),
+        'epub' => array(
+          'label' => 'hidden',
+          'module' => 'osci_tk_epub',
+          'settings' => array(),
+          'type' => 'osci_tk_section',
+          'weight' => '0',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_tombstone',
+      'label' => 'Tombstone',
+      'required' => 0,
+      'settings' => array(
+        'text_processing' => '1',
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'text',
+        'settings' => array(
+          'rows' => '5',
+        ),
+        'type' => 'text_textarea',
+        'weight' => '14',
+      ),
+    ),
+  );
+
+  // Exported field: 'node-work_of_art-field_work_title'
+  $fields['node-work_of_art-field_work_title'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_work_title',
+      'foreign keys' => array(
+        'format' => array(
+          'columns' => array(
+            'format' => 'format',
+          ),
+          'table' => 'filter_format',
+        ),
+      ),
+      'indexes' => array(
+        'format' => array(
+          0 => 'format',
+        ),
+      ),
+      'module' => 'text',
+      'settings' => array(),
+      'translatable' => '0',
+      'type' => 'text_long',
+    ),
+    'field_instance' => array(
+      'bundle' => 'work_of_art',
+      'default_value' => NULL,
+      'deleted' => '0',
+      'description' => '',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'text',
+          'settings' => array(),
+          'type' => 'text_default',
+          'weight' => '5',
+        ),
+        'epub' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => '22',
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_work_title',
+      'label' => 'Work Title',
+      'required' => 0,
+      'settings' => array(
+        'text_processing' => '0',
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'text',
+        'settings' => array(
+          'rows' => '5',
+        ),
+        'type' => 'text_textarea',
+        'weight' => '8',
+      ),
+    ),
+  );
+
   // Translatables
   // Included for use with string extractors like potx.
+  t('Accession');
   t('Active');
   t('Alt Tag');
   t('An account of the resource.');
@@ -3490,25 +5615,38 @@ function osci_tk_features_field_default_fields() {
   t('An optional thumbnail to display in reader interfaces');
   t('An optional thumbnail to display in reader interfaces.');
   t('Assets');
+  t('Attached Files');
   t('Author');
+  t('Authors');
   t('Body');
+  t('Catalogue #');
   t('Content Id');
   t('Cover Image');
+  t('Creation');
   t('Creator');
+  t('Credit Line');
   t('Curatorial Entry');
+  t('Curatorial Entry 2');
   t('Data');
   t('Description');
+  t('Donor / Collector');
   t('Editor');
+  t('Exhibitions');
   t('Figure');
+  t('Figures');
   t('File');
   t('Footnote');
+  t('Footnotes');
   t('Glossary');
   t('IIP Server URL');
   t('Identifier');
   t('Image');
+  t('Materials');
   t('Navigation Title');
+  t('Other Documentation');
   t('PTIFF Path');
   t('Paragraph Number');
+  t('Provenance');
   t('Ptiff Attributes');
   t('Publication Date');
   t('Publisher');
@@ -3517,13 +5655,20 @@ function osci_tk_features_field_default_fields() {
   t('SVG File');
   t('Section');
   t('Sections');
+  t('Selected References');
+  t('Slideshow');
   t('Subject');
   t('Subtitle');
   t('Tags');
+  t('Technical Report');
   t('The creator element represents the name of a person, organization, etc. responsible for the creation of the content of a Publication.');
   t('The path on the server to the Pyramidal TIFF image');
   t('The topic of the resource. Typically, the subject will be represented using keywords, key phrases, or classification codes. Recommended best practice is to use a controlled vocabulary.');
   t('Thumbnail');
+  t('Title');
+  t('Tombstone');
+  t('Turn this layered image into a slideshow.');
+  t('Work Title');
 
   return $fields;
 }
