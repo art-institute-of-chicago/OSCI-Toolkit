@@ -771,7 +771,7 @@ function _osci_tk_get_flattened_nodetree_toc($node, $revTime) {
 							}
 				}
 				// if plate is a layered image, use the custom thumbnail for the TOC thumbnail		
-				if (($figure['position'] === 'plate') && ($figureType == 'layered_image')) {
+				if (($figure['position'] === 'plate' || $figure['position'] === 'platefull') && ($figureType == 'layered_image')) {
 						$thumbFile = file_load($figure['custom_thumbnail']);
 						$thumbFileUri = $thumbFile->uri;
 						if ($thumbFileUri != null) {
