@@ -207,7 +207,7 @@ function osci_tk_webapp_preview($node) {
     } else {
         $cssBasePath = $base_url . '/' . variable_get('osci_tk_webapp_base_path', '');
     }
-
+	
 	$css = array();
 	$css[] = $cssBasePath . "js/external/jquery-ui/jquery-ui.min.css";
 	$css[] = $cssBasePath . "js/external/jquery.qtip.css";
@@ -225,7 +225,7 @@ function osci_tk_webapp_preview($node) {
 	$css[] = $cssBasePath . "css/themeNight.css";
 	$css[] = $cssBasePath . "css/themeSepia.css";
 
-	drupal_alter("osci_tk_webapp_custom", $js, $css);
+	drupal_alter("osci_tk_webapp_custom", $node, $js, $css);
 
 	if ($preprocessJs) {
 		$finalJs = array();
