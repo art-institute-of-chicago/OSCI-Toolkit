@@ -2456,6 +2456,84 @@ function osci_tk_features_field_default_fields() {
     ),
   );
 
+  // Exported field: 'node-publication-field_stylesheet'
+  $fields['node-publication-field_stylesheet'] = array(
+    'field_config' => array(
+      'active' => '1',
+      'cardinality' => '1',
+      'deleted' => '0',
+      'entity_types' => array(),
+      'field_name' => 'field_stylesheet',
+      'foreign keys' => array(
+        'fid' => array(
+          'columns' => array(
+            'fid' => 'fid',
+          ),
+          'table' => 'file_managed',
+        ),
+      ),
+      'indexes' => array(
+        'fid' => array(
+          0 => 'fid',
+        ),
+      ),
+      'module' => 'file',
+      'settings' => array(
+        'display_default' => 0,
+        'display_field' => 0,
+        'uri_scheme' => 'public',
+      ),
+      'translatable' => '0',
+      'type' => 'file',
+    ),
+    'field_instance' => array(
+      'bundle' => 'publication',
+      'deleted' => '0',
+      'description' => 'Upload custom styles for this publication.',
+      'display' => array(
+        'default' => array(
+          'label' => 'above',
+          'module' => 'file',
+          'settings' => array(),
+          'type' => 'file_default',
+          'weight' => 11,
+        ),
+        'epub' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+        'teaser' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
+      ),
+      'entity_type' => 'node',
+      'field_name' => 'field_stylesheet',
+      'label' => 'Stylesheet',
+      'required' => 0,
+      'settings' => array(
+        'description_field' => 0,
+        'file_directory' => 'styles',
+        'file_extensions' => 'css',
+        'max_filesize' => '',
+        'user_register_form' => FALSE,
+      ),
+      'widget' => array(
+        'active' => 1,
+        'module' => 'file',
+        'settings' => array(
+          'progress_indicator' => 'throbber',
+        ),
+        'type' => 'file_generic',
+        'weight' => '6',
+      ),
+    ),
+  );
+
   // Exported field: 'node-publication-field_vocabulary'
   $fields['node-publication-field_vocabulary'] = array(
     'field_config' => array(
@@ -2951,6 +3029,7 @@ function osci_tk_features_field_default_fields() {
             'layered_image' => 'layered_image',
             'note' => 0,
             'publication' => 0,
+            'rti_viewer' => 'rti_viewer',
             'section' => 0,
             'svg_asset' => 'svg_asset',
             'title_pages' => 0,
@@ -4629,6 +4708,7 @@ function osci_tk_features_field_default_fields() {
             'layered_image' => 'layered_image',
             'note' => 0,
             'publication' => 0,
+            'rti_viewer' => 'rti_viewer',
             'section' => 0,
             'svg_asset' => 'svg_asset',
             'title_pages' => 0,
@@ -5657,6 +5737,7 @@ function osci_tk_features_field_default_fields() {
   t('Sections');
   t('Selected References');
   t('Slideshow');
+  t('Stylesheet');
   t('Subject');
   t('Subtitle');
   t('Tags');
@@ -5668,6 +5749,7 @@ function osci_tk_features_field_default_fields() {
   t('Title');
   t('Tombstone');
   t('Turn this layered image into a slideshow.');
+  t('Upload custom styles for this publication.');
   t('Work Title');
 
   return $fields;
