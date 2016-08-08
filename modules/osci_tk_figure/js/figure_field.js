@@ -9,7 +9,7 @@
             function (data) {
                 var container = $(target).parents(".fieldset-wrapper:first");
                 var dest = container.find('.figure_reference_preview');
-
+				
                 if (data.show_asset_options) {
                     $(target).parents(".fieldset-wrapper:first").find('.asset-options').show();
                     $(target).parents(".fieldset-wrapper:first").find('.asset-options-reset').show();
@@ -33,7 +33,7 @@
             },
             "json"
         );
-    }
+    };
 
     // given a dom text input element, parse out integer from [nid:123] or return whole string
     window.findReferenceVal = function(obj) {
@@ -43,7 +43,7 @@
         } else {
             return val;
         }
-    }
+    };
 
     $(document).ready(function() {
         // update figure preview image when asset reference field is changed
@@ -69,20 +69,21 @@
             var $this = $(this);
 
             var tabs = $this.parent().siblings(".fieldset-tabs");
-            var currentTab = tabs.tabs( "option", "selected" );
+            var currentTab = tabs.tabs( "option", "active" );
 
             //remove the asset reference so drupal will remove on save
             $('#edit-field-figure-und-' + currentTab).find(".figure_reference_field").val("");
 
             //disable the tab
-            var numTabs = tabs.tabs("length");
+            var numTabs = $('#fieldset-tabs-field_figure').find('ul.ui-tabs-nav').children().not('.ui-state-disabled').length;
+	
             if (currentTab < (numTabs - 1)) {
-                tabs.tabs("select", currentTab + 1);
+                tabs.tabs("option", "active", currentTab + 1);
             } else {
-                tabs.tabs("select", currentTab - 1);
+                tabs.tabs("option", "active", currentTab - 1);
             }
-
             tabs.tabs("disable", currentTab);
+			$('#fieldset-tabs-field_figure').find('ul.ui-tabs-nav').find('.ui-state-disabled').remove();
         });
 
         $('a.asset-options').click(function(event) {
