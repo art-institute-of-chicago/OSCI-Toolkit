@@ -1353,7 +1353,7 @@ function osci_tk_epub_print_view($pubNid, $nid, $noCache=false, $revTime=null) {
         return '<sup>[' . (intval($matches[1]) + 1) . ']</sup>';
     }
     function footnote_numbering($matches) {
-        return $matches[0] . "<span class='number'>" . (intval($matches[2]) + 1) . ")</span> ";
+        return $matches[0] . "<span class='number'>" . (intval($matches[2])) . ")</span> ";
     }
 	function figure_cleanup($matches) {
         return '';
@@ -1369,7 +1369,7 @@ function osci_tk_epub_print_view($pubNid, $nid, $noCache=false, $revTime=null) {
 			$section_content
 		);	
 		$section_content = preg_replace_callback(
-			"/<aside epub:type([^>]*)?fn-[0-9]+-([0-9]+)[^>]*>\s*<p>/",
+			"/<aside epub:type([^>]*)?data-footnote_index=\"([0-9]+)[^>]*>\s*<p>/",
 			'footnote_numbering',
 			$section_content
 		);

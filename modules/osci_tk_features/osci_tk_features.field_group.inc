@@ -676,7 +676,8 @@ function osci_tk_features_field_group_info() {
       7 => 'field_osci_tk_editor',
       8 => 'field_vocabulary',
       9 => 'field_publication_date',
-      10 => 'title',
+      10 => 'field_stylesheet',
+      11 => 'title',
     ),
     'format_type' => 'tab',
     'format_settings' => array(
