@@ -73,7 +73,7 @@
             <h1>Your Notes</h1>
             <?php if (!$notes) {
 					print 'No notes have been taken at this time.';
-					break;
+					return;
 			}else {foreach ($notes as $pub) { ?>
             <div class="publication">
                 <h2><?php print $pub['title']; ?></h2>
