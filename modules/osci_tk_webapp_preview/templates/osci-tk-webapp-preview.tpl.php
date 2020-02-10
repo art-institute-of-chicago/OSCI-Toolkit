@@ -52,6 +52,47 @@
         <?php } ?>
         });
     </script>
+    <style>
+        .alert {
+            background-color: #464646;
+            color: #ffffff;
+            text-align: center;
+            top: 7vw;
+            left: 5vw;
+            width: 90vw;
+            height: auto;
+            position: absolute;
+            font-size: 5vw;
+            display: inline;
+            z-index: 150;
+            font-family: "Ideal Sans A","Ideal Sans B",Helvetica,Arial,sans-serif;
+        }
+        .alertContent {
+            font-family: "Ideal Sans A","Ideal Sans B",Helvetica,Arial,sans-serif;
+            font-size: 5vw;
+            position: relative;
+            padding: 2vw;
+        }
+
+        #device-width-alert {
+            display: none;
+        }
+
+        @media all and (max-width: 767px) {
+            #device-width-alert {
+                display: inline;
+            }
+
+        @media all and (max-width: 320px) {
+            .alertContent {
+                font-size: .75em;
+            }
+            #device-width-alert {
+                display: inline;
+            }
+        }
+        
+    </style>
 </head>
 <body>
 <!-- Google Tag Manager -->
@@ -63,6 +104,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-WV5SX7');</script>
 <!-- End Google Tag Manager -->
+
+<div class="alert" id="device-width-alert">
+    <p class="alertContent">
+        For the best experience, please use a browser or device larger than <br />1024 pixels (i.e., iPad size).
+    </p>
+</div>
+
 
 <!-- Content is injected here by backbone -->
 </body>
